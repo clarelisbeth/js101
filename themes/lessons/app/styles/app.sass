@@ -1,0 +1,80 @@
+*,
+*:before,
+*:after
+  border: 1px solid lightgrey
+
+
+.house
+  width: 400px
+  height: 400px
+  background: FloralWhite
+  border: 1px solid lightgrey
+  margin: 0 auto
+  position: relative
+  margin-top: 200px
+  -webkit-perspective: 800
+
+.house__window
+  width: 40px 
+  height: 40px
+  margin: 25px 45px
+  float: right
+  border-bottom: 3px solid darkgrey
+  box-shadow: inset 0 0 6px grey
+  &:after
+    content: ''
+    width: 100%
+    height: 3px
+    background: darkgrey
+    margin-top: 60%
+    display: block
+    border: none
+
+
+.house__roof
+  margin-top: -202px
+  width: 0 
+  height: 0 
+  border-left: 200px solid transparent
+  border-right: 200px solid transparent
+  border-bottom: 200px solid LightCoral
+
+.house__door
+  width: 70px
+  height: 100px
+  position: absolute
+  bottom: 0
+  left: 165px
+  background: LightSlateGray  
+  border-left: none
+  border-right: none
+
+.house__door-background
+  width: 70px
+  height: 100px
+  position: absolute
+  bottom: 0
+  left: 165px
+  background: DarkSlateGray  
+  border-left: none
+  border-right: none
+
+
+.blue
+  border-bottom: 200px solid cyan
+
+
+.red
+  border-bottom: 2px solid red
+
+.light-on 
+  background-color: rgba(255,165,0,0.5)
+
+
+.house__door
+  -webkit-transition: -webkit-transform 1s
+  -webkit-transform-origin: center left
+
+.open
+  -webkit-transform: rotateY(-130deg)
+  -webkit-transform-style: preserve-3d
