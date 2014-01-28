@@ -1,0 +1,859 @@
+/*
+ * TEMPLATES
+ * typeface
+ * Compare your type face
+ */
+/*
+ * GLOBAL
+ */
+/* VARIABLES */
+/* VENDOR */
+/* normalize.css v1.1.0 | MIT License | git.io/normalize */
+/* normalize.css v1.1.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+/* normalize.css v1.1.0 | Base | MIT License | git.io/normalize */
+html {
+  font-size: 100%;
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+/* normalize.css v1.1.0 | Links | MIT License | git.io/normalize */
+a:focus {
+  outline: thin dotted;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* normalize.css v1.1.0 | Typography | MIT License | git.io/normalize */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+h6 {
+  font-size: 0.67em;
+  margin: 2.33em 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+blockquote {
+  margin: 1em 40px;
+}
+
+dfn {
+  font-style: italic;
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+p,
+pre {
+  margin: 1em 0;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+q {
+  quotes: none;
+}
+
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+
+dd {
+  margin: 0 0 0 40px;
+}
+
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+/* normalize.css v1.1.0 | Embedded Content | MIT License | git.io/normalize */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* normalize.css v1.1.0 | Figures | MIT License | git.io/normalize */
+figure {
+  margin: 0;
+}
+
+/* normalize.css v1.1.0 | Forms | MIT License | git.io/normalize */
+form {
+  margin: 0;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+button,
+input {
+  line-height: normal;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  *overflow: visible;
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* normalize.css v1.1.0 | Tables | MIT License | git.io/normalize */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* PUGPIG BOILERPLATE */
+/*
+ * MIXINS
+ */
+/*
+ * PLACEHOLDERS
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+dl,
+dt,
+dd,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * FUNCTIONS
+ */
+/*
+ * RESET
+ */
+body {
+  background-color: white;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@-o-viewport {
+  width: device-width;
+}
+
+@viewport {
+  width: device-width;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a {
+  -webkit-touch-callout: none;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 13px;
+}
+
+h6 {
+  font-size: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+i {
+  font-style: normal;
+}
+
+/* PROJECT SPECIFIC */
+/*
+ * BASE
+ *
+ * Base styles that do not belong to any component or are not for layout
+ */
+/*
+ * THEME
+ *
+ * For basic sites this should simply contain colour variables. If a proper theme is to be applied this file should simply import the theme file for each component which should be contained within a theme folder e.g.
+ *
+ * @import theme/component
+ * @import theme/component-two
+ */
+/* BRAND COLORS */
+/* SEMANTIC COLORS */
+/*
+ * LAYOUT
+ *
+ * Structural classes. For example a grid system or column definitions. Consider a layout folder and import the partials here if you have lots of different structural styles.
+ */
+/*
+ * COMPONENTS
+ * Import all component Sass partials here e.g
+ */
+.allan {
+  font-family: "Allan", sans-serif;
+}
+
+.allerta {
+  font-family: "Allerta", sans-serif;
+}
+
+.allerta-stencil {
+  font-family: "Allerta Stencil", sans-serif;
+}
+
+.anonymous {
+  font-family: "Anonymous Pro", sans-serif;
+}
+
+.arimo {
+  font-family: "Arimo", sans-serif;
+}
+
+.bentham {
+  font-family: "Bentham", serif;
+}
+
+.brawler {
+  font-family: "Brawler", serif;
+}
+
+.buda {
+  font-family: "Buda", serif;
+}
+
+.cabin {
+  font-family: "Cabin", sans-serif;
+}
+
+.calligraffitti {
+  font-family: "Calligraffitti", sans-serif;
+}
+
+.caudex {
+  font-family: "Caudex", serif;
+}
+
+.cherry-cream {
+  font-family: "Cherry Cream Soda", sans-serif;
+}
+
+.chewy {
+  font-family: "Chewy", sans-serif;
+}
+
+.coda {
+  font-family: "Coda", sans-serif;
+}
+
+.coming-soon {
+  font-family: "Coming Soon", sans-serif;
+}
+
+.copse {
+  font-family: "Copse", serif;
+}
+
+.corben {
+  font-family: "Corben", serif;
+}
+
+.cousine {
+  font-family: "Cousine", serif;
+}
+
+.covered-by {
+  font-family: "Covered By Your Grace", serif;
+}
+
+.crafty-girls {
+  font-family: "Crafty Girls", sans-serif;
+}
+
+.crushed {
+  font-family: "Crushed", sans-serif;
+}
+
+.damion {
+  font-family: "Damion", sans-serif;
+}
+
+.fontdiner {
+  font-family: "Fontdiner Swanky", serif;
+}
+
+.geo {
+  font-family: "Geo", serif;
+}
+
+.gruppo {
+  font-family: "Gruppo", sans-serif;
+}
+
+.homemade {
+  font-family: "Homemade Apple", sans-serif;
+}
+
+.irish {
+  font-family: "Irish Growler", serif;
+}
+
+.droid-sans {
+  font-family: "Droid Sans", sans-serif;
+}
+
+.jura {
+  font-family: "Jura", sans-serif;
+}
+
+.just-another {
+  font-family: "Just Another Hand", sans-serif;
+}
+
+.just-me {
+  font-family: "Just Me Again Down Here", sans-serif;
+}
+
+.kenia {
+  font-family: "Kenia", sans-serif;
+}
+
+.kranky {
+  font-family: "Kranky", sans-serif;
+}
+
+.kristi {
+  font-family: "Kristi", sans-serif;
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+.lekton {
+  font-family: "Lekton", sans-serif;
+}
+
+.luckiest {
+  font-family: "Luckiest Guy", sans-serif;
+}
+
+.lobster {
+  font-family: "Lobster", serif;
+}
+
+.mako {
+  font-family: "Mako", sans-serif;
+}
+
+.metrophobic {
+  font-family: "Metrophobic", sans-serif;
+}
+
+.merriweather {
+  font-family: "Merriweather", serif;
+}
+
+.mountains-of {
+  font-family: "Mountains of Christmas", serif;
+}
+
+.orbitron {
+  font-family: "Orbitron", sans-serif;
+}
+
+.permanent {
+  font-family: "Permanent Marker", sans-serif;
+}
+
+.podkova {
+  font-family: "Podkova", sans-serif;
+}
+
+.droid-serif {
+  font-family: "Droid Serif", serif;
+}
+
+.yanone {
+  font-family: "Yanone Kaffeesatz", serif;
+}
+
+.nobile {
+  font-family: "Nobile", sans-serif;
+}
+
+.reenie {
+  font-family: "Reenie Beanie", serif;
+}
+
+.rock-salt {
+  font-family: "Rock Salt", serif;
+}
+
+.schoolbell {
+  font-family: "Schoolbell", serif;
+}
+
+.shanti {
+  font-family: "Shanti", serif;
+}
+
+.slackey {
+  font-family: "Slackey", serif;
+}
+
+.sniglet {
+  font-family: "Sniglet", sans-serif;
+}
+
+.sunshiney {
+  font-family: "Sunshiney", sans-serif;
+}
+
+.syncopate {
+  font-family: "Syncopate", sans-serif;
+}
+
+.tangerine {
+  font-family: "Tangerine", sans-serif;
+}
+
+.pt-sans {
+  font-family: "PT Sans", serif;
+}
+
+.play {
+  font-family: "Play", serif;
+}
+
+.molengo {
+  font-family: "Molengo", serif;
+}
+
+.ofl-sorts {
+  font-family: "OFL Sorts Mill Goudy TT", serif;
+}
+
+.vollkorn {
+  font-family: "Vollkorn", serif;
+}
+
+.ultra {
+  font-family: "Ultra", serif;
+}
+
+.cantarell {
+  font-family: "Cantarell", serif;
+}
+
+.inconsolata {
+  font-family: "Inconsolata", serif;
+}
+
+.crimson {
+  font-family: "Crimson Text", serif;
+}
+
+.cardo {
+  font-family: "Cardo", serif;
+}
+
+.arvo {
+  font-family: "Arvo", serif;
+}
+
+.neucha {
+  font-family: "Neucha", serif;
+}
+
+.droid-sans-mono {
+  font-family: "Droid Sans Mono", serif;
+}
+
+.cuprum {
+  font-family: "Cuprum", serif;
+}
+
+.old-standard {
+  font-family: "Old Standard TT", serif;
+}
+
+.neuton {
+  font-family: "Neuton", serif;
+}
+
+.nunito {
+  font-family: "Nunito", sans-serif;
+}
+
+.im-fell-dw {
+  font-family: "IM Fell DW Pica", serif;
+}
+
+.philosopher {
+  font-family: "Philosopher", serif;
+}
+
+.puritan {
+  font-family: "Puritan", sans-serif;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.ruslan-display {
+  font-family: "Ruslan Display", sans-serif;
+}
+
+.girl-next-door {
+  font-family: "The Girl Next Door", sans-serif;
+}
+
+.tinos {
+  font-family: "Tinos", serif;
+}
+
+.ubuntu {
+  font-family: "Ubuntu", serif;
+}
+
+.unifrakturcook {
+  font-family: "UnifrakturCook", serif;
+}
+
+.josefin-sans {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.josefin-slab {
+  font-family: "Josefin Slab", serif;
+}
+
+.unifrakturmaguntia {
+  font-family: "UnifrakturMaguntia", serif;
+}
+
+.unkempt {
+  font-family: "Unkempt", serif;
+}
+
+.vibur {
+  font-family: "Vibur", sans-serif;
+}
+
+.walter-turncoat {
+  font-family: "Walter Turncoat", sans-serif;
+}
+
+.wire-one {
+  font-family: "Wire One", sans-serif;
+}
+
+/* Typekit fonts */
+.fertigo-pro {
+  font-family: "fertigo-pro-1", "fertigo-pro-2", sans-serif;
+}
+
+.orgovan-rounded {
+  font-family: "orgovan-rounded-web-1", "orgovan-rounded-web-2", fantasy;
+}
+
+* {
+  font-family: "Merriweather", serif;
+}
+
+header {
+  float: left;
+  padding: 20px;
+}
+
+select {
+  z-index: 100;
+  position: relative;
+  margin: 10px 0;
+}
+
+.glyph-wrapper {
+  margin-top: 50px;
+  position: relative;
+  border: 10px solid seagreen;
+  overflow: none;
+  text-align: center;
+}
+
+.glyph {
+  padding: 0 40px;
+  font-size: 800px;
+  line-height: 700px;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.top {
+  position: relative;
+  opacity: 0.7;
+  color: coral;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  opacity: 0.5;
+  color: seagreen;
+  width: 100%;
+}
